@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/resources/config.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/images/gif/cat.gif" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/images/gif/cat.gif" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/images/gif/卡通红花.gif" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/images/gif/水车风水轮.gif" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/images/gif/花草海滩.gif" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/images/jpg/1.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/images/jpg/2.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/images/jpg/3.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/images/jpg/柯南.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/images/jpg/草原.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/images/png/11.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/images/png/Flaot类型.png" charset="GBK" />
+  </component>
+</project>

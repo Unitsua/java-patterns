@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config>
+	<!--<className>edu.xatu.imageReader.GifReaderFactory</className>-->
+	<!--<className>edu.xatu.imageReader.JpgReaderFactory</className>-->
+
+	<!--<className>edu.xatu.skin_library.SpringStyleFactory</className>-->
+	<className>edu.xatu.skin_library.SummerStyleFactory</className>
+</config>
