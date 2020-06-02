@@ -5532,61 +5532,83 @@
     <session id="1277567392">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="JAVA/command" value="2" />
           <entry key="JAVA/iterator" value="2" />
           <entry key="JAVA/strategy" value="2" />
-          <entry key="java" value="44" />
+          <entry key="JAVA/test" value="1" />
+          <entry key="java" value="159" />
+          <entry key="png" value="2" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="44" />
-          <entry key="UML" value="4" />
+          <entry key="Image" value="2" />
+          <entry key="JAVA" value="159" />
+          <entry key="UML" value="7" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2044" />
+          <entry key="java" value="5121" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2044" />
+          <entry key="JAVA" value="5121" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/strategy/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/iterator/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/command/Subject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            <state relative-caret-position="196">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/iterator/MyIterator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/command/Receiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="12" column="45" lean-forward="true" selection-end-line="26" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/java/jdk1.8.0_201/src.zip!/javax/swing/JComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="1955" column="20" selection-start-line="1955" selection-start-column="20" selection-end-line="1955" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/command/Invoker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
               <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
@@ -5595,72 +5617,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/iterator/MyIteratorImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/command/Observer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="140">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/command/Package command.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/command/ConcreteObserver1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/command/ConcreteObserver2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#733#734#0" expanded="true" />
-                <element signature="e#788#789#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#872#873#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/strategy/FlyBehavior.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/command/ConcreteInvoker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="308">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#785#786#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/strategy/LongDistanceTakeOff.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/command/ConcreteSubject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/strategy/SubSonicFly.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/strategy/SuperSonicFly.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/strategy/TakeOffBehavior.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/strategy/VerticalTakeOff.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="56">
+              <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+              <folding>
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -5688,15 +5702,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/strategy/TakeOffBehavior.java" />
-        <option value="$PROJECT_DIR$/src/main/java/strategy/FlyBehavior.java" />
-        <option value="$PROJECT_DIR$/src/main/java/strategy/VerticalTakeOff.java" />
-        <option value="$PROJECT_DIR$/src/main/java/strategy/Fighter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/strategy/Harrier.java" />
-        <option value="$PROJECT_DIR$/src/main/java/strategy/Helicopter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/strategy/AirPlane.java" />
-        <option value="$PROJECT_DIR$/src/main/java/strategy/SubSonicFly.java" />
-        <option value="$PROJECT_DIR$/src/main/java/strategy/SuperSonicFly.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy/LongDistanceTakeOff.java" />
         <option value="$PROJECT_DIR$/src/main/java/iterator/A.java" />
         <option value="$PROJECT_DIR$/src/test/java/iterator/M1Iterator.java" />
@@ -5710,6 +5715,44 @@
         <option value="$PROJECT_DIR$/src/main/java/strategy/Airaft.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/iterator/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/A.java" />
+        <option value="$PROJECT_DIR$/src/test/java/command/A.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/Cirlce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/Shape.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/Command.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/Observer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/ConcreteObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/MouseMotion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/Mouse.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/ConcreteObserver1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/MouseListenserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/t3.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/P381Problem6A.java" />
+        <option value="$PROJECT_DIR$/src/test/java/command/Client.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/Receiver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/ConcreteCommand.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/Command.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/Document.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/AddCommand.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/UndoCommand.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/RedoCommand.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/Invoker.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/TestMain.java" />
+        <option value="$PROJECT_DIR$/src/test/java/command/Client1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/T3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/ConcreteSubject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/ConcreteObserver1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/Receiver.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/GraphicsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/Circle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/TestUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/ConcreteObserver2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/ConcreteInvoker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/ConcreteCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/Invoker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/Subject.java" />
       </list>
     </option>
   </component>
@@ -5728,10 +5771,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="96" />
-    <option name="width" value="1555" />
-    <option name="height" value="1025" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="376" />
+    <option name="y" value="110" />
+    <option name="width" value="1400" />
+    <option name="height" value="1104" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -5787,29 +5831,31 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="iterator" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="behavioral_design" type="b2602c69:ProjectViewProjectNode" />
               <item name="behavioral_design" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="behavioral_design" type="b2602c69:ProjectViewProjectNode" />
               <item name="behavioral_design" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
-              <item name="Airaft.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="behavioral_design" type="b2602c69:ProjectViewProjectNode" />
               <item name="behavioral_design" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="behavioral_design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="behavioral_design" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-test-sources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -5821,21 +5867,27 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590993564394" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591098138745" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Chapter23Observer" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="command" />
       <recent name="iterator" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ui" />
+      <recent name="command" />
       <recent name="iterator" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="command" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -5850,13 +5902,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iterator.A" />
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="command.Client" />
       <module name="behavioral_design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iterator.Test" />
+          <option name="PATTERN" value="command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -5864,12 +5916,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strategy.Client" />
+    <configuration name="GraphicsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.GraphicsTest" />
       <module name="behavioral_design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strategy.*" />
+          <option name="PATTERN" value="ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -5877,29 +5929,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iterator.Test" />
+    <configuration name="MouseListenserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.MouseListenserTest" />
       <module name="behavioral_design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iterator.*" />
+          <option name="PATTERN" value="ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.T3" />
+      <module name="behavioral_design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUI.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="behavioral_design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui" />
+      <option name="MAIN_CLASS_NAME" value="ui.TestUI" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.A" />
-      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.T3" />
+      <item itemvalue="Application.GraphicsTest" />
+      <item itemvalue="JUnit.TestUI.test1" />
+      <item itemvalue="Application.MouseListenserTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.A" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.T3" />
+        <item itemvalue="Application.MouseListenserTest" />
+        <item itemvalue="JUnit.TestUI.test1" />
+        <item itemvalue="Application.GraphicsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -5917,17 +6002,27 @@
       <workItem from="1590829681772" duration="1791000" />
       <workItem from="1590970270672" duration="7889000" />
       <workItem from="1590979624852" duration="7014000" />
+      <workItem from="1591012430255" duration="13415000" />
+      <workItem from="1591062930274" duration="26868000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestUI_test1 - 2020.06.02 at 13h 55m 53s.xml">
+      <configuration name="TestUI.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUI_test1 - 2020.06.02 at 14h 02m 29s.xml">
+      <configuration name="TestUI.test1" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23236000" />
+    <option name="totallyTimeSpent" value="63519000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="77" y="0" width="1244" height="820" extended-state="1" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26053962" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17091152" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -5936,8 +6031,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32994187" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.09011628" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25139666" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20670392" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.06266667" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -5945,7 +6040,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.42732558" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.5293296" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -5956,6 +6051,36 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23927614" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32994187" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20949721" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.037709497" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.09078212" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -5963,282 +6088,607 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/command/Client1.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/MyIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="168">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/AirPlane.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/Helicopter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/Fighter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/Harrier.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/iterator/MIterator.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/iterator/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/MyIteratorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="252">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/FlyBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/LongDistanceTakeOff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/SubSonicFly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/SuperSonicFly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/TakeOffBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/VerticalTakeOff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/command/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/Mouse.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/MouseMotion.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/Shape.java" />
+    <entry file="jar://F:/java/jdk1.8.0_201/src.zip!/java/awt/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="439" column="32" lean-forward="true" selection-start-line="439" selection-start-column="32" selection-end-line="439" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/ConcreteObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/iterator/MyIteratorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/iterator/MyIterator.java">
+    <entry file="jar://F:/java/jdk1.8.0_201/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <caret line="508" selection-start-line="508" selection-end-line="508" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/java/jdk1.8.0_201/src.zip!/java/util/ListIterator.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/ConcreteObserver1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1988">
-          <caret line="94" column="12" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/java/jdk1.8.0_201/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4144">
-          <caret line="176" column="11" selection-start-line="176" selection-start-column="11" selection-end-line="176" selection-end-column="11" />
+        <state relative-caret-position="420">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="e#31007#31008#0" expanded="true" />
-            <element signature="e#31039#31040#0" expanded="true" />
-            <element signature="e#31382#31383#0" expanded="true" />
-            <element signature="e#31427#31428#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/java/jdk1.8.0_201/src.zip!/java/util/Iterator.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2240">
-          <caret line="105" column="37" selection-start-line="105" selection-start-column="37" selection-end-line="105" selection-end-column="37" />
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/strategy">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/ConcreteCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="7" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/UndoCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/AddCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/test">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
-          <OriginalElement>strategy</OriginalElement>
+          <OriginalElement>test</OriginalElement>
           <nodes>
-            <node x="363.6387820512821" y="91.0">strategy.Airaft</node>
-            <node x="722.6509615384616" y="358.0">strategy.Harrier</node>
-            <node x="73.75" y="358.0">strategy.AirPlane</node>
-            <node x="321.1387820512821" y="358.0">strategy.Helicopter</node>
-            <node x="500.1387820512821" y="462.0">strategy.Client</node>
-            <node x="647.4582264957265" y="114.0">strategy.VerticalTakeOff</node>
-            <node x="803.4582264957265" y="114.0">strategy.SuperSonicFly</node>
-            <node x="491.6996794871795" y="0.0">strategy.FlyBehavior</node>
-            <node x="328.6996794871795" y="0.0">strategy.TakeOffBehavior</node>
-            <node x="481.1387820512821" y="358.0">strategy.Fighter</node>
-            <node x="144.81933760683762" y="114.0">strategy.LongDistanceTakeOff</node>
-            <node x="0.0" y="114.0">strategy.SubSonicFly</node>
+            <node x="0.0" y="277.5">test.Invoker</node>
+            <node x="126.67175925925926" y="46.5">test.Command</node>
+            <node x="260.0" y="277.0">test.AddCommand</node>
+            <node x="503.0" y="277.0">test.UndoCommand</node>
+            <node x="531.6087962962963" y="459.0">test.TestMain</node>
+            <node x="687.8810185185184" y="0.0">test.Document</node>
+            <node x="753.0" y="277.0">test.RedoCommand</node>
           </nodes>
           <notes />
           <edges>
-            <edge source="strategy.Client" target="strategy.Helicopter">
-              <point x="-16.19999999999999" y="-15.5" />
-              <point x="524.438782051282" y="432.0" />
-              <point x="391.1387820512821" y="432.0" />
+            <edge source="test.Invoker" target="test.Command">
+              <point x="60.0" y="-50.5" />
+              <point x="180.0" y="257.0" />
+              <point x="171.37175925925925" y="257.0" />
+              <point x="-29.80000000000001" y="27.0" />
+            </edge>
+            <edge source="test.RedoCommand" target="test.Command">
+              <point x="-76.66666666666669" y="-51.0" />
+              <point x="791.3333333333333" y="207.0" />
+              <point x="260.7717592592593" y="207.0" />
+              <point x="59.60000000000002" y="27.0" />
+            </edge>
+            <edge source="test.TestMain" target="test.Document">
+              <point x="60.89999999999998" y="-27.0" />
+              <point x="679.5087962962962" y="429.0" />
+              <point x="993.5" y="429.0" />
+              <point x="993.5" y="177.0" />
+              <point x="815.4435185185184" y="177.0" />
+              <point x="49.0625" y="73.5" />
+            </edge>
+            <edge source="test.TestMain" target="test.UndoCommand">
+              <point x="-8.700000000000045" y="-27.0" />
+              <point x="609.9087962962963" y="399.0" />
+              <point x="560.5" y="399.0" />
+              <point x="-57.5" y="51.0" />
+            </edge>
+            <edge source="test.TestMain" target="test.Invoker">
+              <point x="-60.90000000000009" y="-27.0" />
+              <point x="557.7087962962962" y="429.0" />
+              <point x="180.0" y="429.0" />
+              <point x="60.0" y="50.5" />
+            </edge>
+            <edge source="test.TestMain" target="test.AddCommand">
+              <point x="-26.100000000000023" y="-27.0" />
+              <point x="592.5087962962962" y="409.0" />
+              <point x="427.25" y="409.0" />
+              <point x="55.75" y="51.0" />
+            </edge>
+            <edge source="test.UndoCommand" target="test.Document">
+              <point x="76.66666666666663" y="-51.0" />
+              <point x="694.6666666666666" y="257.0" />
+              <point x="756.5685185185184" y="257.0" />
+              <point x="-9.8125" y="73.5" />
+            </edge>
+            <edge source="test.AddCommand" target="test.Command">
+              <point x="-74.33333333333326" y="-51.0" />
+              <point x="297.16666666666674" y="257.0" />
+              <point x="201.17175925925926" y="257.0" />
               <point x="0.0" y="27.0" />
             </edge>
-            <edge source="strategy.Harrier" target="strategy.VerticalTakeOff">
-              <point x="14.75" y="-27.0" />
-              <point x="796.4009615384616" y="188.0" />
-              <point x="749.4582264957265" y="188.0" />
-              <point x="34.0" y="15.5" />
+            <edge source="test.TestMain" target="test.RedoCommand">
+              <point x="26.100000000000023" y="-27.0" />
+              <point x="644.7087962962962" y="409.0" />
+              <point x="810.5" y="409.0" />
+              <point x="-57.5" y="51.0" />
             </edge>
-            <edge source="strategy.Helicopter" target="strategy.SubSonicFly">
-              <point x="-52.5" y="-27.0" />
-              <point x="338.6387820512821" y="258.0" />
-              <point x="88.5" y="258.0" />
-              <point x="29.5" y="15.5" />
+            <edge source="test.RedoCommand" target="test.Document">
+              <point x="76.66666666666669" y="-51.0" />
+              <point x="944.6666666666667" y="187.0" />
+              <point x="795.8185185185184" y="187.0" />
+              <point x="29.4375" y="73.5" />
             </edge>
-            <edge source="strategy.VerticalTakeOff" target="strategy.TakeOffBehavior">
-              <point x="0.0" y="-15.5" />
-              <point x="715.4582264957265" y="61.0" />
-              <point x="447.86634615384617" y="61.0" />
-              <point x="47.666666666666686" y="15.5" />
+            <edge source="test.AddCommand" target="test.Document">
+              <point x="0.0" y="-51.0" />
+              <point x="371.5" y="227.0" />
+              <point x="697.6935185185184" y="227.0" />
+              <point x="-68.6875" y="73.5" />
             </edge>
-            <edge source="strategy.Harrier" target="strategy.SuperSonicFly">
-              <point x="44.25" y="-27.0" />
-              <point x="825.9009615384616" y="338.0" />
-              <point x="900.9582264957265" y="338.0" />
-              <point x="32.5" y="15.5" />
-            </edge>
-            <edge source="strategy.Airaft" target="strategy.TakeOffBehavior">
-              <point x="-64.25" y="-38.5" />
-              <point x="427.8887820512821" y="61.0" />
-              <point x="400.1996794871795" y="61.0" />
-              <point x="0.0" y="15.5" />
-            </edge>
-            <edge source="strategy.SubSonicFly" target="strategy.FlyBehavior">
-              <point x="0.0" y="-15.5" />
-              <point x="59.0" y="71.0" />
-              <point x="510.6996794871795" y="71.0" />
-              <point x="-38.0" y="15.5" />
-            </edge>
-            <edge source="strategy.Fighter" target="strategy.SuperSonicFly">
-              <point x="44.625" y="-27.0" />
-              <point x="585.2637820512821" y="328.0" />
-              <point x="835.9582264957265" y="328.0" />
-              <point x="-32.5" y="15.5" />
-            </edge>
-            <edge source="strategy.AirPlane" target="strategy.SubSonicFly">
-              <point x="-47.25" y="-27.0" />
-              <point x="89.5" y="338.0" />
-              <point x="29.5" y="338.0" />
-              <point x="-29.5" y="15.5" />
-            </edge>
-            <edge source="strategy.AirPlane" target="strategy.LongDistanceTakeOff">
-              <point x="-15.75" y="-27.0" />
-              <point x="121.0" y="268.0" />
-              <point x="187.81933760683762" y="268.0" />
-              <point x="-43.0" y="15.5" />
-            </edge>
-            <edge source="strategy.Helicopter" target="strategy.Airaft">
-              <point x="-17.5" y="-27.0" />
-              <point x="373.6387820512821" y="298.0" />
-              <point x="435.027670940171" y="298.0" />
-              <point x="-57.111111111111086" y="38.5" />
-            </edge>
-            <edge source="strategy.Airaft" target="strategy.FlyBehavior">
-              <point x="64.25" y="-38.5" />
-              <point x="556.3887820512821" y="71.0" />
-              <point x="548.6996794871795" y="71.0" />
-              <point x="0.0" y="15.5" />
-            </edge>
-            <edge source="strategy.Helicopter" target="strategy.VerticalTakeOff">
-              <point x="52.5" y="-27.0" />
-              <point x="443.6387820512821" y="318.0" />
-              <point x="681.4582264957265" y="318.0" />
-              <point x="-34.0" y="15.5" />
-            </edge>
-            <edge source="strategy.Client" target="strategy.AirPlane">
-              <point x="-32.39999999999998" y="-15.5" />
-              <point x="508.2387820512821" y="442.0" />
-              <point x="136.75" y="442.0" />
-              <point x="0.0" y="27.0" />
-            </edge>
-            <edge source="strategy.AirPlane" target="strategy.Airaft">
-              <point x="15.75" y="-27.0" />
-              <point x="152.5" y="278.0" />
-              <point x="377.91655982905985" y="278.0" />
-              <point x="-114.22222222222223" y="38.5" />
-            </edge>
-            <edge source="strategy.Client" target="strategy.Harrier">
-              <point x="32.39999999999998" y="-15.5" />
-              <point x="573.038782051282" y="442.0" />
-              <point x="781.6509615384616" y="442.0" />
-              <point x="0.0" y="27.0" />
-            </edge>
-            <edge source="strategy.Fighter" target="strategy.Airaft">
-              <point x="14.875" y="-27.0" />
-              <point x="555.5137820512821" y="228.0" />
-              <point x="520.6943376068376" y="228.0" />
-              <point x="28.555555555555543" y="38.5" />
-            </edge>
-            <edge source="strategy.Fighter" target="strategy.LongDistanceTakeOff">
-              <point x="-44.625" y="-27.0" />
-              <point x="496.0137820512821" y="248.0" />
-              <point x="273.8193376068376" y="248.0" />
-              <point x="43.0" y="15.5" />
-            </edge>
-            <edge source="strategy.Harrier" target="strategy.Airaft">
-              <point x="-44.25" y="-27.0" />
-              <point x="737.4009615384616" y="208.0" />
-              <point x="577.8054487179487" y="208.0" />
-              <point x="85.66666666666663" y="38.5" />
-            </edge>
-            <edge source="strategy.LongDistanceTakeOff" target="strategy.TakeOffBehavior">
-              <point x="0.0" y="-15.5" />
-              <point x="230.81933760683762" y="61.0" />
-              <point x="352.5330128205128" y="61.0" />
-              <point x="-47.666666666666686" y="15.5" />
-            </edge>
-            <edge source="strategy.Client" target="strategy.Fighter">
-              <point x="0.0" y="-15.5" />
-              <point x="0.0" y="27.0" />
-            </edge>
-            <edge source="strategy.SuperSonicFly" target="strategy.FlyBehavior">
-              <point x="0.0" y="-15.5" />
-              <point x="868.4582264957265" y="51.0" />
-              <point x="586.6996794871795" y="51.0" />
-              <point x="38.0" y="15.5" />
-            </edge>
-            <edge source="strategy.Client" target="strategy.Airaft">
-              <point x="16.19999999999999" y="-15.5" />
-              <point x="556.8387820512821" y="432.0" />
-              <point x="610.6387820512821" y="432.0" />
-              <point x="610.6387820512821" y="218.0" />
-              <point x="549.2498931623932" y="218.0" />
-              <point x="57.111111111111086" y="38.5" />
+            <edge source="test.UndoCommand" target="test.Command">
+              <point x="-76.66666666666674" y="-51.0" />
+              <point x="541.3333333333333" y="217.0" />
+              <point x="230.97175925925927" y="217.0" />
+              <point x="29.80000000000001" y="27.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="23.0" y="136.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="144.0" y="220.0" />
           <SelectedNodes>
-            <node>strategy.Fighter</node>
+            <node>test.Invoker</node>
           </SelectedNodes>
           <Categories>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-            <Category>Constructors</Category>
             <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/iterator">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/RedoCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/P381Problem6A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-588">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="e#461#656#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/command/Client1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/TestUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/java/jdk1.8.0_201/src.zip!/java/awt/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="5694" column="29" selection-start-line="5694" selection-start-column="29" selection-end-line="5694" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/MouseListenserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/GraphicsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/T3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-948">
+          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/command">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
-          <OriginalElement>iterator</OriginalElement>
+          <OriginalElement>command</OriginalElement>
           <nodes>
-            <node x="126.5" y="0.0">iterator.MyIterator</node>
-            <node x="0.0" y="173.0">iterator.MyIteratorImpl</node>
-            <node x="136.5" y="486.0">iterator.Test</node>
+            <node x="639.3323015873011" y="218.5">command.ConcreteInvoker.MouseMotion</node>
+            <node x="443.9999999999998" y="481.5">command.ConcreteSubject</node>
+            <node x="1725.379523809524" y="470.0">command.ConcreteCommand</node>
+            <node x="959.6656349206344" y="493.0">command.ConcreteInvoker</node>
+            <node x="1732.7698015873011" y="206.5">command.Receiver</node>
+            <node x="1789.4109126984126" y="0.0">command.Circle</node>
+            <node x="924.3323015873011" y="184.0">command.ConcreteInvoker.Mouse</node>
+            <node x="350.81999999999994" y="35.0">command.Observer</node>
+            <node x="747.9989682539679" y="751.0">command.Client</node>
+            <node x="343.2499999999998" y="218.5">command.Subject</node>
+            <node x="0.0" y="516.5">command.ConcreteObserver2</node>
+            <node x="1806.8930555555553" y="763.0">command.Client1</node>
+            <node x="221.99999999999977" y="516.5">command.ConcreteObserver1</node>
+            <node x="1211.3323015873011" y="230.0">command.Invoker</node>
+            <node x="1485.3323015873011" y="218.5">command.Command</node>
           </nodes>
           <notes />
           <edges>
-            <edge source="iterator.MyIteratorImpl" target="iterator.MyIterator">
-              <point x="0.0" y="-131.5" />
-              <point x="145.5" y="148.0" />
-              <point x="175.0" y="148.0" />
-              <point x="-48.5" y="61.5" />
+            <edge source="command.ConcreteInvoker.MouseMotion" target="command.ConcreteInvoker">
+              <point x="0.0" y="38.5" />
+              <point x="771.8323015873011" y="380.0" />
+              <point x="1018.8323015873011" y="380.0" />
+              <point x="-82.83333333333337" y="-62.5" />
             </edge>
-            <edge source="iterator.Test" target="iterator.MyIterator">
-              <point x="43.5" y="-27.0" />
-              <point x="267.0" y="461.0" />
-              <point x="301.5" y="461.0" />
-              <point x="301.5" y="148.0" />
-              <point x="272.0" y="148.0" />
-              <point x="48.5" y="61.5" />
+            <edge source="command.Receiver" target="command.Circle">
+              <point x="0.0" y="-50.5" />
+              <point x="1854.2698015873011" y="164.0" />
+              <point x="1862.9109126984126" y="164.0" />
+              <point x="0.0" y="62.0" />
             </edge>
-            <edge source="iterator.Test" target="iterator.MyIteratorImpl">
-              <point x="-43.5" y="-27.0" />
-              <point x="180.0" y="461.0" />
-              <point x="145.5" y="461.0" />
-              <point x="0.0" y="131.5" />
+            <edge source="command.Client" target="command.ConcreteObserver2">
+              <point x="-65.25" y="-39.0" />
+              <point x="769.7489682539679" y="721.0" />
+              <point x="151.5" y="721.0" />
+              <point x="50.5" y="39.0" />
+            </edge>
+            <edge source="command.Client" target="command.ConcreteObserver1">
+              <point x="-36.25" y="-39.0" />
+              <point x="798.7489682539679" y="701.0" />
+              <point x="373.4999999999998" y="701.0" />
+              <point x="50.5" y="39.0" />
+            </edge>
+            <edge source="command.Client" target="command.Command">
+              <point x="36.25" y="-39.0" />
+              <point x="871.2489682539679" y="701.0" />
+              <point x="1620.9573015873011" y="701.0" />
+              <point x="27.125" y="38.5" />
+            </edge>
+            <edge source="command.Command" target="command.Circle">
+              <point x="0.0" y="-38.5" />
+              <point x="1593.8323015873011" y="164.0" />
+              <point x="1841.9109126984126" y="164.0" />
+              <point x="-21.0" y="62.0" />
+            </edge>
+            <edge source="command.ConcreteCommand" target="command.Circle">
+              <point x="124.71428571428567" y="-85.5" />
+              <point x="1995.5938095238096" y="450.0" />
+              <point x="1997.2698015873011" y="450.0" />
+              <point x="1997.2698015873011" y="154.0" />
+              <point x="1904.9109126984126" y="154.0" />
+              <point x="42.0" y="62.0" />
+            </edge>
+            <edge source="command.Client1" target="command.ConcreteCommand">
+              <point x="-24.857142857142833" y="-27.0" />
+              <point x="1869.0359126984126" y="731.0" />
+              <point x="1870.879523809524" y="731.0" />
+              <point x="0.0" y="85.5" />
+            </edge>
+            <edge source="command.ConcreteSubject" target="command.Subject">
+              <point x="-95.25" y="-74.0" />
+              <point x="475.7499999999998" y="450.0" />
+              <point x="466.7499999999998" y="450.0" />
+              <point x="0.0" y="38.5" />
+            </edge>
+            <edge source="command.ConcreteInvoker" target="command.Invoker">
+              <point x="59.16666666666674" y="-62.5" />
+              <point x="1160.8323015873011" y="420.0" />
+              <point x="1287.5323015873012" y="420.0" />
+              <point x="-50.799999999999955" y="27.0" />
+            </edge>
+            <edge source="command.ConcreteObserver1" target="command.Observer">
+              <point x="0.0" y="-39.0" />
+              <point x="322.9999999999998" y="164.0" />
+              <point x="411.41999999999985" y="164.0" />
+              <point x="-40.40000000000009" y="27.0" />
+            </edge>
+            <edge source="command.ConcreteSubject" target="command.Observer">
+              <point x="-31.75" y="-74.0" />
+              <point x="539.2499999999998" y="440.0" />
+              <point x="600.7499999999998" y="440.0" />
+              <point x="600.7499999999998" y="164.0" />
+              <point x="492.22" y="164.0" />
+              <point x="40.40000000000009" y="27.0" />
+            </edge>
+            <edge source="command.Client1" target="command.Circle">
+              <point x="74.57142857142856" y="-27.0" />
+              <point x="1968.464484126984" y="731.0" />
+              <point x="2053.1041666666665" y="731.0" />
+              <point x="2053.1041666666665" y="144.0" />
+              <point x="1925.9109126984126" y="144.0" />
+              <point x="63.0" y="62.0" />
+            </edge>
+            <edge source="command.ConcreteCommand" target="command.Command">
+              <point x="-41.57142857142861" y="-85.5" />
+              <point x="1829.3080952380953" y="410.0" />
+              <point x="1675.2073015873011" y="410.0" />
+              <point x="81.375" y="38.5" />
+            </edge>
+            <edge source="command.ConcreteCommand" target="command.Invoker">
+              <point x="-83.1428571428572" y="-85.5" />
+              <point x="1787.7366666666667" y="420.0" />
+              <point x="1439.932301587301" y="420.0" />
+              <point x="101.60000000000002" y="27.0" />
+            </edge>
+            <edge source="command.ConcreteInvoker" target="command.Circle">
+              <point x="-130.16666666666663" y="-62.5" />
+              <point x="971.4989682539679" y="400.0" />
+              <point x="628.8323015873011" y="400.0" />
+              <point x="628.8323015873011" y="144.0" />
+              <point x="1799.9109126984126" y="144.0" />
+              <point x="-63.0" y="62.0" />
+            </edge>
+            <edge source="command.ConcreteInvoker.Mouse" target="command.ConcreteInvoker">
+              <point x="88.66666666666674" y="73.0" />
+              <point x="1145.9989682539679" y="390.0" />
+              <point x="1113.4989682539679" y="390.0" />
+              <point x="11.833333333333371" y="-62.5" />
+            </edge>
+            <edge source="command.ConcreteCommand" target="command.Receiver">
+              <point x="41.571428571428555" y="-85.5" />
+              <point x="1912.4509523809525" y="390.0" />
+              <point x="1874.5198015873011" y="390.0" />
+              <point x="20.25" y="50.5" />
+            </edge>
+            <edge source="command.ConcreteInvoker" target="command.ConcreteInvoker.MouseMotion">
+              <point x="-106.5" y="-62.5" />
+              <point x="995.1656349206344" y="390.0" />
+              <point x="683.4989682539677" y="390.0" />
+              <point x="-88.33333333333337" y="38.5" />
+            </edge>
+            <edge source="command.Client" target="command.ConcreteCommand">
+              <point x="79.75" y="-39.0" />
+              <point x="914.7489682539679" y="731.0" />
+              <point x="1773.879523809524" y="731.0" />
+              <point x="-97.0" y="85.5" />
+            </edge>
+            <edge source="command.Client" target="command.ConcreteInvoker">
+              <point x="7.25" y="-39.0" />
+              <point x="842.2489682539679" y="681.0" />
+              <point x="1030.6656349206344" y="681.0" />
+              <point x="-71.0" y="62.5" />
+            </edge>
+            <edge source="command.ConcreteSubject" target="command.Invoker">
+              <point x="95.25" y="-74.0" />
+              <point x="666.2499999999998" y="410.0" />
+              <point x="1236.7323015873012" y="410.0" />
+              <point x="-101.60000000000002" y="27.0" />
+            </edge>
+            <edge source="command.ConcreteObserver2" target="command.Observer">
+              <point x="0.0" y="-39.0" />
+              <point x="101.0" y="154.0" />
+              <point x="371.02" y="154.0" />
+              <point x="-80.79999999999995" y="27.0" />
+            </edge>
+            <edge source="command.ConcreteInvoker" target="command.Command">
+              <point x="130.16666666666686" y="-62.5" />
+              <point x="1231.8323015873013" y="450.0" />
+              <point x="1566.7073015873011" y="450.0" />
+              <point x="-27.125" y="38.5" />
+            </edge>
+            <edge source="command.Client" target="command.ConcreteSubject">
+              <point x="-21.75" y="-39.0" />
+              <point x="813.2489682539679" y="691.0" />
+              <point x="475.7499999999998" y="691.0" />
+              <point x="-95.25" y="74.0" />
+            </edge>
+            <edge source="command.Subject" target="command.Observer">
+              <point x="0.0" y="-38.5" />
+              <point x="466.7499999999998" y="164.0" />
+              <point x="451.81999999999994" y="164.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="command.Client1" target="command.ConcreteSubject">
+              <point x="-74.57142857142853" y="-27.0" />
+              <point x="1819.3216269841269" y="671.0" />
+              <point x="602.7499999999998" y="671.0" />
+              <point x="31.75" y="74.0" />
+            </edge>
+            <edge source="command.ConcreteInvoker" target="command.ConcreteInvoker.Mouse">
+              <point x="-35.499999999999886" y="-62.5" />
+              <point x="1066.1656349206346" y="360.0" />
+              <point x="968.6656349206344" y="360.0" />
+              <point x="-88.66666666666674" y="73.0" />
+            </edge>
+            <edge source="command.Client" target="command.Receiver">
+              <point x="65.25" y="-39.0" />
+              <point x="900.2489682539679" y="721.0" />
+              <point x="1702.567023809524" y="721.0" />
+              <point x="1702.567023809524" y="450.0" />
+              <point x="1793.5198015873011" y="450.0" />
+              <point x="-60.75" y="50.5" />
+            </edge>
+            <edge source="command.Client1" target="command.Receiver">
+              <point x="49.714285714285666" y="-27.0" />
+              <point x="1943.607341269841" y="721.0" />
+              <point x="2037.879523809524" y="721.0" />
+              <point x="2037.879523809524" y="370.0" />
+              <point x="1955.5198015873011" y="370.0" />
+              <point x="101.25" y="50.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-131.0" y="167.0" />
+          <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="322.85714285714283" y="339.85714285714283" />
           <SelectedNodes>
-            <node>iterator.MyIteratorImpl</node>
+            <node>command.Invoker</node>
           </SelectedNodes>
           <Categories>
             <Category>Fields</Category>
@@ -6252,101 +6702,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/DD.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/Airaft.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding>
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        <state relative-caret-position="364">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/FlyBehavior.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/Command.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="280">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/LongDistanceTakeOff.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/ConcreteCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="336">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/SubSonicFly.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/ConcreteInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="308">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/SuperSonicFly.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/ConcreteObserver1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="336">
+          <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/TakeOffBehavior.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/ConcreteObserver2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="84">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/VerticalTakeOff.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/ConcreteSubject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="56">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding>
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/MyIterator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/MyIteratorImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="140">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/Package command.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="45" lean-forward="true" selection-end-line="26" selection-end-column="1" />
           <folding>
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/Test.java">
+    <entry file="jar://F:/java/jdk1.8.0_201/src.zip!/javax/swing/JComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        <state relative-caret-position="179">
+          <caret line="1955" column="20" selection-start-line="1955" selection-start-column="20" selection-end-line="1955" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -6427,6 +6905,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: junit:junit:4.13-beta-3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
